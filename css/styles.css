@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&family=Young+Serif&display=swap');
+
+header {
+    background-color: #CFB878;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: "Young Serif", serif;
+    font-size: 4.5vw;
+    text-shadow: -0.3vw 0.3vw black;
+    width: 70%;
+    margin: 10px auto;
+}
+
+#sidebar {
+    background-color: #b07979;
+    color: white;
+    float: right;
+    width: 15vw;
+    height: 72vw;
+
+    padding: 2.5vw;
+    margin: 5vw 2.5vw 2.5vw 1.25vw;
+    border-radius: 30px;
+
+    font-family: "Victor Mono", monospace;
+    font-size: 1.5vw;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-align: center;
+}
+
+fieldset {
+    border: 0.75vw dotted #7AA7A7;
+    border-radius: 20px;
+    margin: 2.5vw;
+    padding: 0 2.5vw 2.5vw;
+    width: 62%;
+}
+
+legend {
+    font-family: "Young Serif", serif;
+    font-size: 3vw;
+    color: black;
+    margin-left: 1.5vw;
+    padding: 1vw;
+}
+
+dt {
+    font-family: "Victor Mono", monospace;
+    font-size: 1vw;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+
+    padding: 1vw 2vw;
+}
+
+dd {
+    font-family: "Victor Mono", monospace;
+    font-size: 1vw;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+#submitButton {
+    font-family: "Young Serif", serif;
+    font-size: 2vw;
+    color: white;
+    background-color: #CFB878;
+    border-radius: 20px;
+    border: none;
+
+    padding: 2vw;
+    width: 20vw;
+    margin: 2.5vw 26%;
+}
+
+#submitButton:hover {
+    background-color: #987d33;
+}
+
+h3 {
+    font-family: "Young Serif", serif;
+    font-size: 2.5vw;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+#resultsDiv {
+    border: 0.75vw dotted black;
+    border-radius: 20px;
+    margin: 2.5vw;
+    padding: 2.5vw;
+}
+
+p {
+    font-family: "Victor Mono", monospace;
+    font-size: 1vw;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #CFB878;
+    color: white;
+    font-family: "Young Serif", serif;
+    font-size: 2vw;
+    text-align: center;
+
+    padding: 60px 30px;
+    border-radius: 20px;
+}
